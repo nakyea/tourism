@@ -1,4 +1,15 @@
-body{
+
+@media (max-width: 1000px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}body{
     background-image: url("logo.jpg");
     background-repeat: no-repeat;
     background-position: center;
