@@ -1,0 +1,252 @@
+body{
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-color: rgb(134, 206, 224);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    margin: 20px;
+    border-style: groove;
+    border-color:blue;
+
+}
+.navbar a{
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(17, 49, 231);
+    transition:  0.3s;
+}
+.navbar a:hover{
+    background-color:#5bdce0;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+}
+.navbar a.active{
+    background-color: #053bcf;
+    color: rgb(236, 234, 234);
+    border-radius: 5px;
+}
+.welcome {
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #053bcf;
+    box-shadow: #053bcf;
+
+}
+.welcome-box {
+    background: rgb(134, 206, 224);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 25px;
+    color: white;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #053bcf;
+}
+.welcome-box h1 {
+    color: #053bcf;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.welcome-box p {
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+.welcome-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #053bcf;
+}
+#home {
+    border-radius: 20px;
+    border-style: groove;
+    border-image: fill;
+    border-width: 2px;
+    border-color: #053bcf;
+    margin: 10px;
+}
+.home-image-container{
+    padding: 100px;
+}
+
+.home-image-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color:blue;
+}
+#home h2 {
+    text-align: center;
+    color: rgb(6, 4, 138);
+    font-size: 70px;
+    font-style: italic;
+}
+#home p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+    font-size:x-large;
+}
+#about{
+    border-radius: 20px;
+    border-style: groove;
+    border-image: fill;
+    border-width: 2px;
+    border-color: #053bcf;
+    margin: 10px;
+}
+#about h2 { 
+    text-align: center;
+    color: rgb(6, 4, 138);
+    font-size: 70px;
+    font-style: italic;
+}
+#about p {
+text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+    font-size:x-large
+}
+.about-image-container{
+     padding: 100px;
+}
+.about-image-container img{
+      width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color:blue;
+}
+#Gallery {
+    border-radius: 20px;
+    border-style: groove;
+    border-image: fill;
+    border-width: 2px;
+    border-color: #053bcf;
+    margin: 17px;
+}
+#Gallery p{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+    font-size:x-large
+}
+#Gallery h2 {
+     text-align: center;
+    color: rgb(6, 4, 138);
+    font-size: 70px;
+    font-style: italic;
+}
+
+#Sites {
+       border-radius: 20px;
+    border-style: groove;
+    border-image: fill;
+    border-width: 2px;
+    border-color: #053bcf;
+    margin: 17px;
+}
+#Sites p{
+      text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+    font-size:x-large
+}
+#Sites li{
+  text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+    font-size:x-large
+}
+#Sites h2{
+     text-align: center;
+    color: rgb(6, 4, 138);
+    font-size: 70px;
+    font-style: italic;
+}
+.card h3{
+    padding: 20px;
+    font-size: xx-large;
+    border: #5bdce0;
+    border-color: #5bdce0;
+    border-radius: 20px;
+    border-style: groove;
+    background-color:transparent;
+    width: 80%;
+    margin-bottom: 30px;
+}
+/* Container for all cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;          /* allows cards to move to next row */
+    justify-content: center;  /* centers cards horizontally */
+    gap: 20px;                /* space between cards */
+    padding: 20px;
+}
+
+/* Individual card styling */
+.card {
+    width: 250px;
+    background:transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: #2f97c7;
+    border-style: groove;
+}
+
+/* Hover effect (makes it look professional) */
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Image styling */
+.attraction-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    padding: 1px;
+    border: #5bdce0;
+    border-radius: 20px;
+}
+
+
+
+.card p {
+    font-size: 14px;
+    padding: 0 10px 10px;
+    color: #070101;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
